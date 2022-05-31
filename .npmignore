@@ -1,0 +1,8 @@
+node_modules
+test
+src
+.babelrc.js
+.eslintrc.js
+scripts
+docs
+.eslintignore

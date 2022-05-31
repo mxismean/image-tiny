@@ -1,0 +1,42 @@
+{
+  "name": "@mx/image-tiny",
+  "version": "0.0.1",
+  "description": "Compress Images",
+  "main": "dist/image-tiny.umd.js",
+  "module": "dist/image-tiny.esm.js",
+  "scripts": {
+    "dev": "rollup -w --environment NODE_ENV:development -c scripts/rollup.config.dev.js",
+    "build": "rollup --environment NODE_ENV:development -c scripts/rollup.config.prod.js",
+    "lint": "eslint src",
+    "fix": "npm run lint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mxismean/image-tiny.git"
+  },
+  "author": "mxismean",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-eslint": "^8.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@web/rollup-plugin-import-meta-assets": "^1.0.7",
+    "eslint": "^8.10.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-filesize": "^9.1.2",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

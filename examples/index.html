@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>test</p>
+  <input type="file" name="chsfile" id="chsfile" value="" accept="image/png,image/jpeg,image/jpg, image/gif" title="" multiple class="chsPic opacity"/>
+  <script type="module">
+    import imageTiny from './image-tiny.esm.min.js';
+    const ipt = document.getElementById('chsfile');
+    ipt.addEventListener('change',async function(event){
+      const files = event.target.files;
+      console.log(111,files[0])
+      const outFile = await imageTiny(files[0]);
+      console.log(222, outFile)
+    })
+  </script>
+</body>
+</html>
