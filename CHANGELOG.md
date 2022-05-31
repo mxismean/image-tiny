@@ -8,22 +8,28 @@
 
 ## Released
 
+## [0.0.4] - 2022-05-31
+
+### Fixed
+
+- package.json 出口文件命名更改 @mxismean
+
 ## [0.0.3] - 2022-05-31
 
 ### Added
 
-- 更新 readme
+- 更新 readme @mxismean
 
 
 ## [0.0.2] - 2022-05-31
 
 ### Added
 
-- 添加 changelog，更新 readme
+- 添加 changelog，更新 readme @mxismean
 
 
 ## [0.0.1] - 2022-05-31
 
 ### Added
 
-- 初始化项目
+- 初始化项目 @mxismean
