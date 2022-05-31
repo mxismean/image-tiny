@@ -1,5 +1,5 @@
 {
-  "name": "@mx/image-tiny",
+  "name": "image-tiny",
   "version": "0.0.1",
   "description": "Compress Images",
   "main": "dist/image-tiny.umd.js",
