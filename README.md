@@ -10,14 +10,14 @@
 
 ## 安装
 
-```
-yarn add @mx/image-tiny
+```bash
+yarn add @mxsir/image-tiny
 ```
 
 ## 使用方法
-```
 
-import imageTiny from '@mx/image-tiny';
+```javascript
+import imageTiny from '@mxsir/image-tiny';
 
 /**
  * @description: 图像压缩
