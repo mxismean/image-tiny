@@ -8,6 +8,13 @@
 
 ## Released
 
+## [0.0.6](https://github.com/mxismean/image-tiny/releases/tag/0.0.6) - 2022-08-08
+
+### Changed
+
+- pngtiny.js 导出方式更改为 esmodule [@mxismean](https://github.com/mxismean)
+
+
 ## [0.0.5](https://github.com/mxismean/image-tiny/releases/tag/0.0.5) - 2022-06-01
 
 ### Added
