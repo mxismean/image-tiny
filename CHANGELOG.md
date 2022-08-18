@@ -8,6 +8,12 @@
 
 ## Released
 
+## [0.1.0](https://github.com/mxismean/image-tiny/releases/tag/0.1.0) - 2022-08-18
+
+### Added
+
+- 更新 readme ，对 wasm 文件的处理添加说明 [@mxismean](https://github.com/mxismean)
+
 ## [0.0.6](https://github.com/mxismean/image-tiny/releases/tag/0.0.6) - 2022-08-08
 
 ### Changed
