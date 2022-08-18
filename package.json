@@ -1,6 +1,6 @@
 {
   "name": "@mxsir/image-tiny",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Compress Images",
   "main": "dist/image-tiny.umd.min.js",
   "module": "dist/image-tiny.esm.min.js",
